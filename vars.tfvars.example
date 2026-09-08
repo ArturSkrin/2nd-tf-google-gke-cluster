@@ -1,0 +1,9 @@
+GOOGLE_REGION    = "us-central1-a"
+GOOGLE_PROJECT   = "your-project-id"
+GKE_NUM_NODES    = 2
+GKE_MACHINE_TYPE = "e2-small"
+EOFcat > vars.tfvars.example << 'EOF'
+GOOGLE_REGION    = "us-central1-a"
+GOOGLE_PROJECT   = "your-project-id"
+GKE_NUM_NODES    = 2
+GKE_MACHINE_TYPE = "e2-small"
